@@ -1,4 +1,5 @@
 # u w0t m8?
+obfuscated stuff
 
 ## Compiling
 `gcc wot.c`
