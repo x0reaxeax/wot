@@ -35,12 +35,12 @@ syscall
 lea     rax, [rip+main] ; addy of main (&main)
 push    rax             ; save it
 xor     edx, edx
-mov     ebx, 0x400      ; 4096 (page size)
+mov     ebx, 0x1000     ; 4096 (page size)
 div     ebx             ; &main / 4096
 pop     rdi             ; pop &main
 sub     rdi, rdx        ; subtract remainder from &main 
 mov     eax, 0xa        ; sys_mprotect
-mov     esi, 0x400      ; 4096 size
+mov     esi, 0x1000     ; 4096 size
 mov     edx, 0x7        ; PROT_READ | PROT_WRITE | PROT_EXEC = 0x7
 syscall
 ```
