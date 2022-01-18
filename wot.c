@@ -1,10 +1,9 @@
-#define        A __attribute__
-#define        C constructor
-#define        Z for(;0==0;)
-#define        XBIT A ((C))
- typedef      void v;;;
-     unsigned  char
-        main[]={
+#define          A __attribute__
+#define          C constructor
+#define          Z for(;0==0;)
+#define          XBIT A ((C))
+ typedef         void v;;;
+   unsigned char main[]={
 
     72U,            137,    198, 235, 12, 85U,    32U, 87U, 79U, 84U, 32U,
     77U,            56U,    63U,          33U,              63U, 
